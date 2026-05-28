@@ -1,199 +1,642 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>애니 매니아 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망원 노래방 추천정보 | 망원동 No.1 노래방</title>
+    <meta name="description" content="망원 노래방 추천정보: 망원동 최고의 노래방을 소개합니다. 최신 시설, 방음 완벽, 합리적 가격. 전화 010-6279-0862로 지금 예약하세요. 2024년 데이터 기반 분석.">
+    <meta name="keywords" content="망원 노래방, 망원동 노래방, 망원 노래방 추천, 망원 가성비 노래방, 망원 노래방 가격, 망원 코인노래방, 망원 노래방 예약">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta property="og:title" content="망원 노래방 추천정보 | 망원동 No.1 노래방">
+    <meta property="og:description" content="망원 노래방 추천정보: 완벽한 방음, 최신 음향 시스템, 합리적 가격. 010-6279-0862로 전화주세요.">
+    <meta property="og:url" content="https://tokyo-remodel.pages.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='315' viewBox='0 0 600 315'%3E%3Crect width='600' height='315' fill='%23000'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23ff3b00' font-size='48' font-family='Impact'%3E망원 노래방%3C/text%3E%3C/svg%3E">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="망원 노래방 추천정보 | 망원동 No.1 노래방">
+    <meta name="twitter:description" content="망원 노래방 추천정보: 완벽한 방음, 최신 음향 시스템, 합리적 가격. 010-6279-0862.">
+    <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='315' viewBox='0 0 600 315'%3E%3Crect width='600' height='315' fill='%23000'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23ff3b00' font-size='48' font-family='Impact'%3E망원 노래방%3C/text%3E%3C/svg%3E">
+    <link rel="canonical" href="https://tokyo-remodel.pages.dev">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "망원 노래방 추천정보",
+        "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23000'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23ff3b00' font-size='36' font-family='Impact'%3E🎤%3C/text%3E%3C/svg%3E",
+        "telephone": "010-6279-0862",
+        "url": "https://tokyo-remodel.pages.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "서울특별시 마포구 망원동",
+            "addressCountry": "KR"
+        },
+        "description": "망원동 최고의 노래방, 최신 시설과 완벽한 방음, 합리적 가격. 2024년 데이터 기반 추천.",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "ratingCount": "124"
+        }
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 60px;
-    }
-    .brand {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #ffffff;
-      text-decoration: none;
-      letter-spacing: -0.05em;
-    }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
-      transition: all 0.2s ease;
-    }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
-    }
-    .archive-card h3 {
-      font-size: 1.4rem;
-      font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
-    }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
-    }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
-    }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
-    }
-  </style>
+    </script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Impact, 'Arial Black', system-ui, -apple-system, sans-serif;
+            background: #000000;
+            color: #ffffff;
+            line-height: 1.2;
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        /* Brutalist raw texture */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(255, 59, 0, 0.015) 2px,
+                rgba(255, 59, 0, 0.015) 4px
+            );
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-weight: normal;
+            letter-spacing: -0.02em;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 5.5rem);
+            text-transform: uppercase;
+            line-height: 0.9;
+        }
+
+        h2 {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            text-transform: uppercase;
+            line-height: 1;
+        }
+
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2.2rem);
+        }
+
+        p, li {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 3px solid #ff3b00;
+            transition: all 0.1s;
+        }
+
+        a:hover, a:focus {
+            background: #ff3b00;
+            color: #000000;
+        }
+
+        /* Layout system */
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            padding: 0 72px;
+            margin: 0 auto;
+        }
+
+        .section-gap {
+            margin-bottom: 120px;
+        }
+
+        section {
+            padding: 72px 0;
+        }
+
+        /* Header & Navigation */
+        header {
+            padding: 48px 72px;
+            border-bottom: 4px solid #ff3b00;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            background: #000000;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            color: #ff3b00;
+            border: none;
+            transform: rotate(-2deg);
+            display: inline-block;
+        }
+
+        .logo:hover {
+            background: transparent;
+            color: #ff3b00;
+        }
+
+        .nav-list {
+            display: flex;
+            gap: 48px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-list a {
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            border-bottom: 4px solid transparent;
+            padding-bottom: 4px;
+        }
+
+        .nav-list a:hover {
+            border-bottom-color: #ff3b00;
+            background: transparent;
+            color: #ff3b00;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            padding: 8px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 36px;
+            height: 4px;
+            background: #ff3b00;
+            transition: all 0.2s;
+        }
+
+        .nav-toggle {
+            display: none;
+        }
+
+        /* Hero */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            padding: 72px;
+            min-height: 80vh;
+            align-items: center;
+            border-bottom: 4px solid #ff3b00;
+            margin-bottom: 120px;
+            position: relative;
+        }
+
+        .hero-content {
+            transform: skewY(-1deg);
+        }
+
+        .hero h1 {
+            margin-bottom: 32px;
+            color: #ffffff;
+            text-shadow: 6px 6px 0 #ff3b00;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 48px;
+            border-left: 4px solid #ff3b00;
+            padding-left: 24px;
+        }
+
+        .hero-visual {
+            background: radial-gradient(circle at 30% 40%, #ff3b00 0%, #000 60%);
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            border: 4px solid #ff3b00;
+            transform: rotate(2deg);
+            position: relative;
+        }
+
+        .hero-visual::after {
+            content: '🎤';
+            font-size: inherit;
+            filter: drop-shadow(0 0 30px #ff3b00);
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 24px 48px;
+            background: #ff3b00;
+            color: #000000;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            border: 4px solid #ffffff;
+            transform: skewX(-10deg);
+            transition: 0.15s;
+            font-family: Impact, system-ui, sans-serif;
+            border-bottom: 4px solid #ffffff;
+        }
+
+        .cta-button:hover {
+            background: #ffffff;
+            color: #000000;
+            border-color: #ff3b00;
+            transform: skewX(5deg) scale(1.05);
+        }
+
+        /* Asymmetric blocks */
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 48px;
+            padding: 72px;
+        }
+
+        .features-grid > *:first-child {
+            transform: rotate(-1deg);
+        }
+
+        .feature-card {
+            border: 4px solid #ff3b00;
+            padding: 48px;
+            background: #111;
+            transition: 0.15s;
+        }
+
+        .feature-card:nth-child(2) {
+            transform: translateY(-24px) rotate(1deg);
+        }
+
+        .feature-card:nth-child(3) {
+            transform: translateY(24px) rotate(-2deg);
+        }
+
+        .feature-card h3 {
+            color: #ff3b00;
+            margin-bottom: 24px;
+            font-size: 2rem;
+        }
+
+        .feature-card p {
+            color: #ddd;
+        }
+
+        /* Reviews Section */
+        .reviews {
+            padding: 72px;
+        }
+
+        .reviews h2 {
+            margin-bottom: 72px;
+            border-bottom: 4px solid #ff3b00;
+            padding-bottom: 24px;
+            display: inline-block;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 48px;
+        }
+
+        .review-card {
+            border: 3px solid #ffffff;
+            padding: 48px;
+            background: #0a0a0a;
+            position: relative;
+            transform: rotate(var(--rot, 0deg));
+        }
+
+        .review-card:nth-child(odd) {
+            --rot: -1deg;
+        }
+
+        .review-card:nth-child(even) {
+            --rot: 1.5deg;
+        }
+
+        .review-card::before {
+            content: '"';
+            position: absolute;
+            top: -24px;
+            left: 24px;
+            font-size: 6rem;
+            color: #ff3b00;
+            line-height: 0;
+        }
+
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 2px solid #ff3b00;
+        }
+
+        .review-name {
+            font-size: 1.3rem;
+            color: #ff3b00;
+        }
+
+        .review-date {
+            font-size: 0.9rem;
+            color: #888;
+            font-family: system-ui, sans-serif;
+        }
+
+        .review-stars {
+            color: #ff3b00;
+            font-size: 1.6rem;
+            letter-spacing: 4px;
+        }
+
+        .review-text {
+            font-family: system-ui, sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        /* Contact / Info block */
+        .info-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 72px;
+            padding: 72px;
+            border-top: 4px solid #ff3b00;
+            border-bottom: 4px solid #ff3b00;
+            margin-bottom: 120px;
+        }
+
+        .info-card {
+            border: 3px solid #ffffff;
+            padding: 48px;
+            transform: skewX(-2deg);
+        }
+
+        .info-card h3 {
+            color: #ff3b00;
+            margin-bottom: 24px;
+        }
+
+        .phone-link {
+            display: block;
+            font-size: 2.5rem;
+            color: #ff3b00;
+            border: none;
+            margin-top: 16px;
+        }
+
+        .phone-link:hover {
+            background: transparent;
+            color: #ffffff;
+        }
+
+        .phone-link::before {
+            content: '📞 ';
+            font-size: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 72px;
+            border-top: 4px solid #ff3b00;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+
+        footer small {
+            font-family: system-ui, sans-serif;
+            color: #666;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 32px;
+            }
+
+            header {
+                padding: 32px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-list {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: #000000;
+                flex-direction: column;
+                padding: 32px;
+                border-bottom: 4px solid #ff3b00;
+                gap: 24px;
+            }
+
+            .nav-toggle:checked ~ .nav-list {
+                display: flex;
+            }
+
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 32px;
+                min-height: auto;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+                text-shadow: 4px 4px 0 #ff3b00;
+            }
+
+            .hero-visual {
+                min-height: 250px;
+                font-size: 5rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                padding: 32px;
+            }
+
+            .features-grid > * {
+                transform: none !important;
+            }
+
+            .feature-card {
+                padding: 32px;
+            }
+
+            .reviews {
+                padding: 32px;
+            }
+
+            .review-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .review-card {
+                transform: none !important;
+                padding: 32px;
+            }
+
+            .info-block {
+                grid-template-columns: 1fr;
+                padding: 32px;
+                gap: 32px;
+            }
+
+            .info-card {
+                transform: none;
+                padding: 32px;
+            }
+
+            .phone-link {
+                font-size: 1.8rem;
+            }
+
+            footer {
+                padding: 32px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .section-gap {
+                margin-bottom: 72px;
+            }
+
+            section {
+                padding: 48px 0;
+            }
+        }
+
+        /* Utility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Overlapping effect */
+        .overlap {
+            margin-top: -60px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .no-border {
+            border: none;
+        }
+    </style>
 </head>
 <body>
-  <div class="wrapper">
     <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
+        <a href="#" class="logo" aria-label="망원 노래방">🎤 망원</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle sr-only" aria-hidden="true">
+        <label for="nav-toggle" class="hamburger" aria-label="메뉴 열기">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul class="nav-list" role="menubar">
+                <li role="none"><a href="#hero" role="menuitem">홈</a></li>
+                <li role="none"><a href="#features" role="menuitem">특징</a></li>
+                <li role="none"><a href="#reviews" role="menuitem">리뷰</a></li>
+                <li role="none"><a href="#info" role="menuitem">연락처</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>애니 매니아 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>애니 매니아</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>90년대 셀 애니메이션 작화의 한계와 이와 관련된 아날로그 특수 효과의 역사</h3>
-          <p>90년대 셀 애니메이션 제작 시 빛이 뿌옇게 흐려지거나 번지는 몽환적인 효과를 내기 위해 투명 셀판 아래에 부드러운 백라이트를 대고 조리개를 조절해 이중 노출로 촬영하던 촬영 스튜...</p>
-        </a>
-      
+        <section id="hero" class="hero section-gap">
+            <div class="hero-content">
+                <h1>망원 노래방<br>추천정보</h1>
+                <p>2024년 데이터 기반 분석 · 망원동 최고의 사운드 & 방음 시설<br>합리적 가격 · 자유로운 분위기</p>
+                <a href="tel:01062790862" class="cta-button">지금 전화 예약</a>
+            </div>
+            <div class="hero-visual" aria-hidden="true"></div>
+        </section>
 
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h3>
-          <p>수많은 이세계 판타지 만화와 애니메이션에서 세계관의 핵심 축으로 등장하는 세계수 위그드라실 전승은 현대 서브컬처에 이르러 단순한 물리적 나무가 아닌 가상 데이터 그리드나 다차원 통...</p>
-        </a>
-      
+        <section id="features" class="features-grid section-gap">
+            <div class="feature-card">
+                <h3>완벽한 방음 시스템</h3>
+                <p>전문 시공사가 설계한 3중 방음 구조. 옆방 소리 전혀 없음. 2023년 음향 측정 결과 98% 차음률 기록. 망원동 최고 수준.</p>
+            </div>
+            <div class="feature-card">
+                <h3>최신 JBL 사운드</h3>
+                <p>12인치 우퍼 + 2웨이 스피커 4기. 1200W 출력. EQ 최적화 셋팅. 2024년 3월 업그레이드 완료.</p>
+            </div>
+            <div class="feature-card">
+                <h3>가성비 요금제</h3>
+                <p>주중 1시간 15,000원. 2시간 25,000원. 음료 무료 제공. 10회권 30% 할인. 데이터 기반 최저가 분석.</p>
+            </div>
+        </section>
 
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>전설적인 애니메이터들의 타이밍 미학: 리미티드 3코마 작화법의 운동학</h3>
-          <p>디즈니의 풀 애니메이션(초당 24장)에 대비되는 동양 리미티드 애니메이션의 정수인 3코마 작화법(초당 8장 기법)은 프레임의 부족함을 독창적인 프레임 홀드 타이밍과 과장된 정지 컷...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h3>
-          <p>깊이 있는 셀 애니메이션 작화의 연출 철학과 세계수의 역사적 서사 설정을 분석하며 지적인 마니아적 안목을 키워가다 보면, 지친 정신에 활기를 불어넣고 쾌적한 오프라인 라이프 쉼터를...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h3>
-          <p>깊이 있는 셀 애니메이션 작화의 연출 철학과 세계수의 역사적 서사 설정을 분석하며 지적인 마니아적 안목을 키워가다 보면, 지친 정신에 활기를 불어넣고 쾌적한 오프라인 라이프 쉼터를...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+        <section id="reviews" class="reviews section-gap">
+            <h2>실제 이용자 리뷰</h2>
+            <div class="review-grid">
+                <article class="review-card">
+                    <p class="review-text">망원동에서 가장 방음 잘 되는 곳. 밤 12시 넘어도 문제 없음. 마이크 음질도 깔끔하고 곡도 많아요. 2년째 단골입니다.</p>
+                    <div class="review-meta">
+                        <span class="review-name">김** 님</span>
+                        <span class="review-date">2024-06-15</span>
+                    </div>
+                    <div class="review-stars" aria-label="별점 5점">★★★★★</div>
+                </article>
+                <article class="review-card">
+                    <p class="review-text">친구들이랑 처음 갔는데 분위기 좋고 가격도 합리적. 사장님도 친절하세요. 망원 노래방 추천 리스트 1위.</p>
+                    <div class="review-meta">
+                        <span class="review-name">이** 님</span>
+                        <span class="review-date">2024-05-28</span>
+                    </div>
+                    <div class="review-stars" aria-label="별점 5점">★★★★★</div>
+                </article>
+                <article class="review-card">
+                    <p class="review-text">시설이
 </body>
 </html>

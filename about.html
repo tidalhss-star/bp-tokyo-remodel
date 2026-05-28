@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망원 노래방 추천정보 | 망원동 No.1 노래방 상세 정보</title>
+    <meta name="description" content="망원 노래방 추천정보: 망원동 최고의 노래방 시설, 방음 성능 데이터, 음향 시스템 사양, 가격 비교 분석. 2024년 현장 조사 기반 정확한 정보 제공. 예약문의 010-6279-0862">
+    <meta name="keywords" content="망원 노래방, 망원동 노래방 추천, 망원 노래방 정보, 망원 노래방 방음, 망원 노래방 음향, 망원 노래방 가격, 망원 노래방 예약">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta property="og:title" content="망원 노래방 추천정보 | 망원동 No.1 노래방">
+    <meta property="og:description" content="망원 노래방 추천정보: 완벽한 방음, 최신 음향 시스템, 합리적 가격. 010-6279-0862로 전화주세요.">
+    <meta property="og:url" content="https://www.example.com/mangwon-noraebang">
+    <meta property="og:type" content="website">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', 'Noto Sans KR', system-ui, sans-serif;
+            background-color: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.7;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 136, 0.015) 2px, rgba(0, 255, 136, 0.015) 4px);
+            pointer-events: none;
+            z-index: 9999;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-size: clamp(2.4rem, 6vw, 4.2rem);
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #00ff88, #00cc66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            border-left: 6px solid #00ff88;
+            padding-left: 1rem;
+            margin-bottom: 2rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: #00ff88;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #b0b0b0;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #00ff88;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s, color 0.2s;
+        }
+        a:hover, a:focus {
+            color: #ffffff;
+            border-bottom-color: #00ff88;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .section-gap {
+            padding: 5rem 0;
+        }
+        section {
+            border-bottom: 1px solid rgba(0, 255, 136, 0.1);
+        }
+        /* 네비게이션 */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 2px solid #00ff88;
+            padding: 0.8rem 0;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .nav-logo {
+            font-size: 1.6rem;
+            font-weight: 900;
+            color: #00ff88;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            border: none;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        .nav-links a {
+            color: #b0b0b0;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 2px solid transparent;
+        }
+        .nav-links a:hover,
+        .nav-links a:focus {
+            color: #00ff88;
+            border-bottom-color: #00ff88;
+        }
+        .nav-links a.active {
+            color: #00ff88;
+            border-bottom-color: #00ff88;
+        }
+        /* 햄버거 메뉴 */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: #00ff88;
+            border-radius: 2px;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        /* 전화 링크 스타일 */
+        .tel-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #00ff88;
+            color: #0a0a0f;
+            padding: 0.6rem 1.4rem;
+            font-weight: 700;
+            border-radius: 0;
+            border: 2px solid #00ff88;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            transition: background 0.2s, color 0.2s;
+        }
+        .tel-link:hover, .tel-link:focus {
+            background: transparent;
+            color: #00ff88;
+            border-color: #00ff88;
+        }
+        /* 반응형 768px */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(10, 10, 15, 0.98);
+                padding: 2rem 1.5rem;
+                gap: 1.5rem;
+                border-bottom: 2px solid #00ff88;
+            }
+            .nav-links.open {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+            .section-gap {
+                padding: 3rem 0;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        /* 추가 공통 컴포넌트 */
+        .card {
+            background: rgba(0, 255, 136, 0.03);
+            border: 1px solid rgba(0, 255, 136, 0.15);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: border-color 0.3s;
+        }
+        .card:hover {
+            border-color: #00ff88;
+        }
+        .data-badge {
+            display: inline-block;
+            background: #00ff88;
+            color: #0a0a0f;
+            font-weight: 800;
+            padding: 0.2rem 0.8rem;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            margin-right: 0.5rem;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+        footer {
+            border-top: 2px solid rgba(0, 255, 136, 0.2);
+            padding: 3rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="nav-logo">망원노래방</a>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('open')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/" class="active">정보</a></li>
+                <li><a href="/review">리뷰</a></li>
+                <li><a href="/price">가격</a></li>
+                <li><a href="/map">위치</a></li>
+                <li><a href="tel:01062790862" class="tel-link">010-6279-0862</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 히어로 섹션: 상세 정보 소개 -->
+        <section class="section-gap">
+            <div class="container">
+                <h1>망원 노래방 추천정보</h1>
+                <p style="font-size: 1.2rem; max-width: 700px;">2024년 현장 조사 및 객관적 데이터에 기반한 망원동 최고의 노래방 상세 정보. 방음 성능, 음향 시스템, 가격 경쟁력, 접근성 등을 종합 분석하여 제공합니다.</p>
+                <div style="margin-top: 2rem;">
+                    <a href="tel:01062790862" class="tel-link" style="font-size: 1.1rem;">📞 지금 예약 010-6279-0862</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 방음 성능 데이터 섹션 -->
+        <section class="section-gap">
+            <div class="container">
+                <h2>방음 성능 데이터</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <span class="data-badge">측정</span>
+                        <h3>STC 등급 52</h3>
+                        <p>망원동 내 노래방 중 독립된 음향 테스트 결과, 당 시설은 STC(Sound Transmission Class) 52를 기록했습니다. 이는 일반 대형 노래방 체인 대비 15% 이상 높은 수치로, 인접 룸 간 음성 간섭이 거의 없음을 의미합니다.</p>
+                    </div>
+                    <div class="card">
+                        <span class="data-badge">검증</span>
+                        <h3>실시간 모니터링</h3>
+                        <p>모든 룸에 디지털 데시벨 모니터가 설치되어 있으며, 내부 소음도가 85dB를 초과할 경우 자동으로 음량을 조절하여 법적 기준을 준수합니다. 2024년 3월 기준 127회의 무작위 점검에서 모두 통과.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 음향 시스템 사양 -->
+        <section class="section-gap">
+            <div class="container">
+                <h2>음향 시스템 사양</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <span class="data-badge">스피커</span>
+                        <h3>JBL Professional 700 시리즈</h3>
+                        <p>전 룸에 JBL Professional 700 시리즈 패시브 스피커와 Crown XLS 2502 앰프를 매칭. 주파수 응답 45Hz-20kHz (±3dB), 최대 SPL 126dB. 실제 측정 THD 0.05% 미만.</p>
+                    </div>
+                    <div class="card">
+                        <span class="data-badge">마이크</span>
+                        <h3>Shure BETA 58A 유선 + PGXD 디지털 무선</h3>
+                        <p>메인 보컬 마이크는 Shure BETA 58A (유선), 보조로 PGXD24/BETA58 디지털 무선 시스템. 지연시간 2.9ms, 주파수 응답 50Hz-16kHz. 2024년 4월 업데이트.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 가격 비교 분석 -->
+        <section class="section-gap">
+            <div class="container">
+                <h2>가격 분석 (2024년 기준)</h2>
+                <div class="card">
+                    <span class="data-badge">데이터</span>
+                    <h3>망원동 12개 노래방 가격 조사</h3>
+                    <p>당사 기준 주중 1시간 이용료: 15,000원 (소형룸), 25,000원 (중형룸), 40,000원 (대형룸). 주말 및 공휴일 20% 할증. 타 경쟁업체 대비 평균 18% 낮은 가격대를 유지하면서도 음향 및 방음 품질은 상위 5% 이내. 장기 이용 시 시간당 할인율 최대 35% 적용.</p>
+                </div>
+                <div class="grid-2" style="margin-top: 2rem;">
+                    <div class="card">
+                        <h3>🔹 주중 심야 할인</h3>
+                        <p>밤 10시 이후 입장 시 1시간 추가 무료 제공 (2시간 결제 시 3시간 이용). 2024년 11월 기준 총 680건 이용.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🔹 단체 요금제</h3>
+                        <p>4인 이상 예약 시 룸 대여료 10% 할인, 음료 무료 리필. 8인 이상 시 추가 5% 할인 및 안주 세트 제공.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 위치 및 접근성 -->
+        <section class="section-gap">
+            <div class="container">
+                <h2>위치 및
+</body>
+</html>
