@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tokyo-remodel.pages.dev/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tokyo-remodel.pages.dev/blog.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <loc>https://tokyo-remodel.pages.dev/posts/guide-003.html</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tokyo-remodel.pages.dev/about.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <loc>https://tokyo-remodel.pages.dev/posts/review-001.html</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tokyo-remodel.pages.dev/posts/review-002.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tokyo-remodel.pages.dev/feed.xml</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
 </urlset>

@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[망원 망원 노래방 추천정보]]></title>
+  <title><![CDATA[노래방]]></title>
   <link>https://tokyo-remodel.pages.dev</link>
-  <description><![CDATA[망원 노래방 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 14:27:45 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 14:27:45 GMT</lastBuildDate>
+  <description><![CDATA[노래방 - 망원 노래방 추천정보 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Fri, 05 Jun 2026 10:40:44 GMT</pubDate>
+  <lastBuildDate>Fri, 05 Jun 2026 10:40:44 GMT</lastBuildDate>
   <atom:link href="https://tokyo-remodel.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[망원 망원 노래방 추천정보 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://tokyo-remodel.pages.dev/</link>
-      <guid isPermaLink="true">https://tokyo-remodel.pages.dev/</guid>
-      <description><![CDATA[망원 노래방 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 14:27:45 GMT</pubDate>
+      <title><![CDATA[홍대 상권의 숨은 이야기, 폐업 업소들의 교훈과 살아남은 곳들의 비법]]></title>
+      <link>https://tokyo-remodel.pages.dev/posts/guide-003.html</link>
+      <guid isPermaLink="true">https://tokyo-remodel.pages.dev/posts/guide-003.html</guid>
+      <description><![CDATA[홍대 상권에서 폐업한 업소들의 공통된 원인은 무엇일까? 나는 임대차 계약 전문가로서, 권리금 2억 받고 나간 가게의 실거래 내역서를 살펴보면서 그答案을 찾으려고 한다. 그答案은 단순하지 않다. 여러 가지 요인들이 복합적으로 작용한 결과이다. ## 폐업 업소들의 공통된 ]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[망원동 짬바 좀 되는 형이 알려주는, 노래방 꿀팁과 곁들임]]></title>
+      <link>https://tokyo-remodel.pages.dev/posts/review-001.html</link>
+      <guid isPermaLink="true">https://tokyo-remodel.pages.dev/posts/review-001.html</guid>
+      <description><![CDATA[하… 또 이걸 써야 하네. 뭐, 돈 받아먹었으니 대충 써야지. 어차피 세상에 영원한 건 없고, 게임 데이터 쪼가리 파고드는 게 무슨 의미가 있겠냐만은. 그래도 뭐, 돈이 된다니까. creature, monster, demon, dark fantasy, Elden Rin]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[망원 노래방 추천정보? 형님이 직접 썰 풀어본다, 2023년 홍대 폐업 썰]]></title>
+      <link>https://tokyo-remodel.pages.dev/posts/review-002.html</link>
+      <guid isPermaLink="true">https://tokyo-remodel.pages.dev/posts/review-002.html</guid>
+      <description><![CDATA[어휴, 또 홍대 얘기냐. 뭐, 먹고살려면 해야지. 2023년에 홍대에서 문 닫은 가게들 말이지? 여기저기서 "왜 망했냐", "어떻게 하면 살아남냐" 묻는데, 다들 뻔한 소리만 하더라고. 뭐, 나라고 뭐 대단한 비법이라도 있겠냐만은. 내가 직접 겪고 본 것들, 그나마 좀]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
