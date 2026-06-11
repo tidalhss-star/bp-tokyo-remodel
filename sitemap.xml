@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gangnam-night-zone.xyz/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,6 +15,12 @@
   <url>
     <loc>https://gangnam-night-zone.xyz/posts/field_note-002-1bp7ub8.html</loc>
     <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangnam-night-zone.xyz/posts/field_note-002-1dlxqwf.html</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -49,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://gangnam-night-zone.xyz/posts/guide-003-ji7z88.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gangnam-night-zone.xyz/posts/guide-003-vs5ndy.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,6 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://gangnam-night-zone.xyz/posts/review-001-1petpxw.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gangnam-night-zone.xyz/posts/review-001-f1vtwc.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -104,7 +122,7 @@
   </url>
   <url>
     <loc>https://gangnam-night-zone.xyz/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
