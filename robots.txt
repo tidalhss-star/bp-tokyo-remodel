@@ -7,10 +7,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: Yeti
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-Sitemap: https://tokyo-remodel.pages.dev/sitemap.xml
+Sitemap: https://gangnam-night-zone.xyz/sitemap.xml
