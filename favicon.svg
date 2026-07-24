@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
-  <metadata>BPaaS site identity 7a5a6218d5308fc4</metadata>
-  <rect width="64" height="64" rx="15" fill="hsl(2 72% 45%)"/>
-  <path d="M31 0h33v64H17Z" fill="hsl(148 72% 77%)" opacity="0.82"/>
-  <g transform="rotate(302 32 32)" opacity="0.42"><path d="M12 32c8-17 32-17 40 0-8 17-32 17-40 0Z" fill="none" stroke="#101418" stroke-width="6"/></g>
-  <text x="32" y="39" text-anchor="middle" fill="#101418" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">GN</text>
+  <title>망원 노래방 추천정보</title>
+  <rect width="64" height="64" rx="14" fill="hsl(2 66% 33%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(155 68% 69%)" opacity="0.16"/>
+  <g transform="rotate(180 32 32)"><rect x="15" y="15" width="28" height="28" rx="6" fill="none" stroke="hsl(2 24% 96%)" stroke-width="7"/><rect x="25" y="25" width="24" height="24" rx="6" fill="hsl(155 68% 69%)"/></g>
 </svg>
