@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>문의 — 강남 클럽</title>
+<meta name="description" content="강남 클럽 예약 문의, 운영시간, 위치 안내 및 입장 예약을 바로 진행하세요. 현장 도착 전 확인해야 할 모든 실질 정보를 한 곳에서 처리합니다.">
+<meta name="keywords" content="강남 클럽 문의, 강남 클럽 예약, 클럽 운영시간, 강남 클럽 위치, 클럽 예약 폼">
+<link rel="canonical" href="https://gangnam-night-zone.xyz/contact.html">
+<meta property="og:title" content="문의 — 강남 클럽 예약과 실질 안내">
+<meta property="og:description" content="강남 클럽 예약 문의, 운영시간, 위치 안내 및 입장 예약을 바로 진행하세요. 현장 도착 전 확인해야 할 모든 실질 정보를 한 곳에서 처리합니다.">
+<meta property="og:url" content="https://gangnam-night-zone.xyz/contact.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="문의 — 강남 클럽 예약과 실질 안내">
+<style>
+:root {
+  --c-bg: #0a0a0a;
+  --c-surface: #141414;
+  --c-border: #2a2a2a;
+  --c-text: #e8e8e8;
+  --c-text-muted: #888;
+  --c-accent: #ff2d2d;
+  --c-accent-dim: #cc1a1a;
+  --c-white: #ffffff;
+  --ff-sans: 'Helvetica Neue', Arial, 'Apple SD Gothic Neo', sans-serif;
+  --ff-mono: 'SF Mono', 'Consolas', monospace;
+  --r-sm: 3px;
+  --r-md: 6px;
+  --max-w: 1200px;
+  --gutter: 24px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--c-bg); color: var(--c-text); font-family: var(--ff-sans); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: var(--c-accent); text-decoration: none; transition: opacity .2s; }
+a:hover { opacity: .78; }
+.r-main-xlk5 { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+.k-nav-45t7 { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; border-bottom: 1px solid var(--c-border); position: sticky; top: 0; background: var(--c-bg); z-index: 100; }
+.k-nav-45t7 .logo { font-size: 18px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--c-white); }
+.k-nav-45t7 .logo span { color: var(--c-accent); }
+.k-txt-bju7 ul { list-style: none; display: flex; gap: 28px; }
+.k-txt-bju7 ul li a { font-size: 13px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--c-text-muted); transition: color .2s; }
+.k-txt-bju7 ul li a:hover { color: var(--c-white); opacity: 1; }
+.k-txt-bju7 input:checked ~ ul { display: flex; }
+.x-wrap-z1nu { padding: 72px 0 96px; }
+.x-wrap-z1nu h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 900; letter-spacing: -1px; line-height: 1.15; color: var(--c-white); margin-bottom: 16px; }
+.x-wrap-z1nu h1 span { color: var(--c-accent); }
+.x-wrap-z1nu .lead { font-size: 17px; color: var(--c-text-muted); max-width: 640px; line-height: 1.75; margin-bottom: 56px; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 64px; }
+.contact-card { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--r-md); padding: 36px; }
+.contact-card h2 { font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--c-accent); margin-bottom: 20px; }
+.contact-card p { font-size: 15px; color: var(--c-text); line-height: 1.8; }
+.contact-card .label { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--c-text-muted); margin-top: 18px; margin-bottom: 4px; }
+.contact-card .value { font-size: 15px; color: var(--c-white); }
+.contact-card .value a { color: var(--c-white); border-bottom: 1px solid var(--c-accent); }
+.hours-table { width: 100%; border-collapse: collapse; }
+.hours-table tr { border-bottom: 1px solid var(--c-border); }
+.hours-table tr:last-child { border-bottom: none; }
+.hours-table td { padding: 14px 0; font-size: 14px; }
+.hours-table td:first-child { color: var(--c-text-muted); font-weight: 600; width: 140px; letter-spacing: 0.5px; }
+.hours-table td:last-child { color: var(--c-white); text-align: right; }
+.hours-table .closed { color: var(--c-accent); font-weight: 700; }
+.map-box { width: 100%; height: 320px; background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--r-md); overflow: hidden; position: relative; margin-bottom: 64px; }
+.map-box iframe { width: 100%; height: 100%; border: 0; filter: grayscale(.3) brightness(.85); }
+.map-placeholder { display: flex; align-items: center; justify-content: center; height: 100%; font-size: 13px; color: var(--c-text-muted); letter-spacing: 1px; text-transform: uppercase; font-weight: 600; }
+.form-section { margin-bottom: 80px; }
+.form-section h2 { font-size: 24px; font-weight: 800; color: var(--c-white); margin-bottom: 8px; }
+.form-section .form-desc { font-size: 14px; color: var(--c-text-muted); margin-bottom: 36px; }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.form-group { display: flex; flex-direction: column; }
+.form-group.full { grid-column: 1 / -1; }
+.form-group label { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--c-text-muted); margin-bottom: 8px; }
+.form-group input, .form-group select, .form-group textarea {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-sm);
+  padding: 14px 16px;
+  font-size: 14px;
+  color: var(--c-white);
+  font-family: var(--ff-sans);
+  transition: border-color .2s;
+  outline: none;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  border-color: var(--c-accent);
+}
+.form-group textarea { resize: vertical; min-height: 120px; }
+.form-group select option { background: var(--c-surface); color: var(--c-text); }
+.btn-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--c-accent);
+  color: var(--c-white);
+  border: none;
+  border-radius: var(--r-sm);
+  padding: 16px 40px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background .2s, transform .15s;
+  margin-top: 28px;
+}
+.btn-submit:hover { background: var(--c-accent-dim); transform: translateY(-1px); }
+.notice-bar { background: var(--c-surface); border: 1px solid var(--c-border); border-left: 3px solid var(--c-accent); border-radius: var(--r-sm); padding: 24px 28px; margin-bottom: 64px; }
+.notice-bar p { font-size: 13px; color: var(--c-text-muted); line-height: 1.8; }
+.notice-bar strong { color: var(--c-white); font-weight: 700; }
+.footer-bar { border-top: 1px solid var(--c-border); padding: 32px 0; text-align: center; }
+.footer-bar p { font-size: 12px; color: var(--c-text-muted); letter-spacing: 0.5px; }
+@media (max-width: 768px) {
+  .k-nav-45t7 { flex-wrap: wrap; gap: 12px; }
+  .k-txt-bju7 ul { flex-wrap: wrap; gap: 16px; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-group.full { grid-column: auto; }
+  .x-wrap-z1nu h1 { font-size: 28px; }
+  .x-wrap-z1nu { padding: 48px 0 64px; }
+  .map-box { height: 240px; }
+}
+</style>
+</head>
+<body>
+
+<div class="r-main-xlk5">
+
+  <nav class="k-nav-45t7">
+    <a href="index.html" class="logo">GANGNAM<span>NIGHT</span></a>
+    <div class="k-txt-bju7">
+      <ul>
+        <li><a href="index.html">가이드</a></li>
+        <li><a href="venues.html">클럽</a></li>
+        <li><a href="conditions.html">입장조건</a></li>
+        <li><a href="reviews.html">후기</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">문의</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="x-wrap-z1nu">
+    <h1>문의는 <span>미리</span>.<br>현장에서 후회는 없도록.</h1>
+<img src="images/gallery-2.webp" alt="강남 클럽 룸 내부" loading="lazy" decoding="async" style="width:100%;max-width:1100px;height:auto;border-radius:14px;margin:28px auto 0;display:block;object-fit:cover">
+    <p class="lead">강남 클럽 입장 전, 반드시 확인하고 가야 할 것들을 정리합니다. 예약 문의부터 운영시간·위치 확인까지. 준비 없는 밤은 불확실한 도박일 뿐입니다.</p>
+
+    <div class="notice-bar">
+      <p><strong>강남 클럽은 정기 휴무일이 불규칙합니다.</strong> 주말·공휴일 전 영업시간 변동이 잦으므로, 방문 당일 반드시 본 페이지에서 최신 운영시간을 재확인하세요. 전화 없이 도착해 문 닫힌 경험, 이 사이트에서 만들지 않습니다.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h2>위치 안내</h2>
+        <div class="label">주소</div>
+        <div class="value">서울 강남구 역삼동 823-41<br>강남대로 160 지하 1층</div>
+        <div class="label">가장 가까운 역</div>
+        <div class="value">2호선 강남역 11번 출구 도보 4분</div>
+        <div class="label">주차</div>
+        <div class="value">건물 지하 2~3층 주차장 이용 (발렛 가능)</div>
+      </div>
+
+      <div class="contact-card">
+        <h2>운영시간</h2>
+        <table class="hours-table">
+          <tr><td>화요일</td><td>22:00 — 06:00</td></tr>
+          <tr><td>수요일</td><td>22:00 — 06:00</td></tr>
+          <tr><td>목요일</td><td>22:00 — 06:00</td></tr>
+          <tr><td>금요일</td><td>22:00 — 08:00</td></tr>
+          <tr><td>토요일</td><td>22:00 — 08:00</td></tr>
+          <tr><td>일요일</td><td class="closed">정기 휴무</td></tr>
+          <tr><td>월요일</td><td class="closed">정기 휴무</td></tr>
+        </table>
+      </div>
+
+      <div class="contact-card">
+        <h2>전화 문의</h2>
+        <div class="label">예약专线</div>
+        <div class="value"><a href="tel:+821012345678">010-1234-5678</a></div>
+        <div class="label">운영시간 내 연결 가능</div>
+        <div class="value" style="font-size:13px;color:var(--c-text-muted);">평일 오후 2시 — 오후 10시<br>당일 전화는 통화량 폭주로 연결 불가할 수 있습니다.</div>
+        <div class="label">카카오톡</div>
+        <div class="value"><a href="#">@gangnamnight</a></div>
+      </div>
+
+      <div class="contact-card">
+        <h2>이메일</h2>
+        <div class="label">일반 문의</div>
+        <div class="value"><a href="mailto:info@gangnam-night-zone.xyz">info@gangnam-night-zone.xyz</a></div>
+        <div class="label">단체 예약 / 제휴</div>
+        <div class="value"><a href="mailto:booking@gangnam-night-zone.xyz">booking@gangnam-night-zone.xyz</a></div>
+        <div class="label">회신 안내</div>
+        <div class="value" style="font-size:13px;color:var(--c-text-muted);">영업일 기준 24시간 이내 회신 원칙.<br>예약 건은 2시간 이내 확인 후 연락 드립니다.</div>
+      </div>
+
+    </div>
+
+    <div class="map-box">
+      <div class="map-placeholder">강남역 11번 출구 도보 4분 · 강남대로 160 지하 1층</div>
+    </div>
+
+    <div class="form-section">
+      <h2>예약 문의</h2>
+      <p class="form-desc">정보를 정확히 기입하세요. 허위 정보는 입장이 거부됩니다.</p>
+
+      <form class="form-grid" action="#" method="POST" onsubmit="return false;">
+
+        <div class="form-group">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" placeholder="실명 입력" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">연락처</label>
+          <input type="tel" id="phone" name="phone" placeholder="010-0000-0000" required>
+        </div>
+
+        <div class="form-group">
+          <label for="date">방문 희망일</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="form-group">
+          <label for="party">인원수</label>
+          <select id="party" name="party">
+            <option value="">선택하세요</option>
+            <option value="2">2명</option>
+            <option value="3-4">3~4명</option>
+            <option value="5-8">5~8명</option>
+            <option value="9-15">9~15명 (단체)</option>
+            <option value="16+">16명 이상 (스페셜 문의)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">성별 구성</label>
+          <select id="gender" name="gender">
+            <option value="">선택하세요</option>
+            <option value="mixed">혼성</option>
+            <option value="male">남성만</option>
+            <option value="female">여성만</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="purpose">방문 목적</label>
+          <select id="purpose" name="purpose">
+            <option value="">선택하세요</option>
+            <option value="general">일반 입장</option>
+            <option value="vip">VIP 테이블 예약</option>
+            <option value="birthday">생일 파티</option>
+            <option value="corporate">기업 회식</option>
+            <option value="foreigner">외국인 고객</option>
+          </select>
+        </div>
+
+        <div class="form-group full">
+          <label for="message">남기실 말</label>
+          <textarea id="message" name="message" placeholder="특이사항, 요청 사항, 질문 등을 입력하세요. 입력하지 않아도 예약 접수는 가능합니다."></textarea>
+        </div>
+
+        <div class="form-group full">
+          <button type="submit" class="btn-submit">문의 보내기 →</button>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="notice-bar">
+      <p><strong>예약 접수 ≠ 입장 보장.</strong> 클럽 측 사정에 따라 인원 제한, 테이블 변경, 입장 거부가 발생할 수 있습니다. 예약 확정은 별도 연락을 통해 안내되며, 확정 전까지는 입장이 보장되지 않습니다. 이 점을 숙지한 후 문의하세요.</p>
+    </div>
+
+  </section>
+
+  <footer class="footer-bar">
+    <p>© 2025 GANGNAM NIGHT ZONE. 모든 정보는 현장 상황에 따라 변동될 수 있습니다.</p>
+  <p style="margin-top:16px;font-size:.78rem;opacity:.55"><a href="https://t.me/ghostvesselspace" target="_blank" rel="nofollow noopener" style="color:#94a3b8;text-decoration:none">사이트 렌탈 문의</a></p></footer>
+
+</div>
+
+</body>
+</html>
