@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://blog.gangnam-night-zone.xyz/sitemap.xml
+Sitemap: https://blog.gangnam-night-zone.xyz/sitemap-pages.xml
